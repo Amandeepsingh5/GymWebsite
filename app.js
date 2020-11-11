@@ -11,6 +11,7 @@ app.use('/static', express.static('static')) // For serving static files
 app.set('view engine', 'pug') // Set the template engine as pug
 app.set('views', path.join(__dirname, 'views')) // Set the views directory
  
+
 // ENDPOINTS
 app.get('/', (req, res)=>{
     const con = "This is the best content on the internet so far so use it wisely"
